@@ -1,7 +1,31 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@mikehw/advent-of-code@~0.1.6": "0.1.6",
+    "jsr:@std/assert@^1.0.8": "1.0.8",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "jsr:@std/path@^1.0.8": "1.0.8",
     "npm:@types/node@*": "22.5.4"
+  },
+  "jsr": {
+    "@mikehw/advent-of-code@0.1.6": {
+      "integrity": "c9b946375090096568bee25f3337bbdaf70fead1114695f9c3649108a3451fda",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
+    "@std/assert@1.0.8": {
+      "integrity": "ebe0bd7eb488ee39686f77003992f389a06c3da1bbd8022184804852b2fa641b",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
   },
   "npm": {
     "@types/node@22.5.4": {
@@ -13,5 +37,11 @@
     "undici-types@6.19.8": {
       "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
     }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@mikehw/advent-of-code@~0.1.6",
+      "jsr:@std/assert@^1.0.8"
+    ]
   }
 }
