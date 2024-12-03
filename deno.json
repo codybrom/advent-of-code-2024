@@ -1,7 +1,9 @@
 {
   "tasks": {
     "day1": "deno run --allow-read --allow-write --allow-net --allow-env --env-file days/day1.ts",
-    "day1:test": "deno test --allow-read --allow-write --allow-net --allow-env --env-file days/day1.ts"
+    "day1:test": "deno test --allow-read --allow-write --allow-net --allow-env --env-file days/day1.ts",
+    "day2": "deno run --allow-read --allow-write --allow-net --allow-env --env-file days/day2.ts",
+    "day2:test": "deno test --allow-read --allow-write --allow-net --allow-env --env-file days/day2.ts"
   },
   "imports": {
     "@mikehw/advent-of-code": "jsr:@mikehw/advent-of-code@^0.1.6",
